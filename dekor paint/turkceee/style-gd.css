@@ -1,0 +1,188 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header img {height:169px
+}
+
+.header .contact {float: right;
+padding-top: 50px;}
+
+.header .contact p{margin-top: 12px;}
+
+.header .contact a{padding:10px 12px;
+background: black;
+border-radius:8%;
+color:white;}
+
+.header .contact a:hover{color:blue;
+text-decoration: none;}
+
+
+.nav ul {
+    list-style-type: none;
+    display:flex;
+justify-content:space-around;
+    background-color: #3c3c3c;
+}
+
+.nav li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover, .dropdown:hover .dropbtn {
+    background-color:#1f68ba;
+		color:white;
+    text-decoration: none;
+}
+
+.nav li.dropdown {
+    display: inline-block;
+}
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #3c3c3c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.under-kitchen-pic{background: #1f68ba;
+height: 80px;}
+
+.under-kitchen-pic h1{color:white;
+padding: 20px 0px 20px 25px;
+font-size: 25px;}
+
+
+
+.col-two{margin-top: 35px;}
+
+.col-two h1{color: rgb(59, 139, 255);}
+
+.col-two img{width:40%;
+float: left;
+padding-right: 25px;}
+
+.col-two p{width:60%;
+float: left;}
+
+.under-col-two {margin-top: 35px;
+background:  #3c3c3c;
+height:120px;}
+
+.under-col-two {
+text-align: center;
+color: rgb(59, 139, 255);
+	font-size: 26px;
+	 line-height: normal;
+	  font-family: 'Titillium Web';}
+
+.left-side h1 {color: rgb(59, 139, 255);}
+
+.col-two .left-side{width:60%;
+float: left;
+padding-left: 28px;}
+
+.footer {background:#3c3c3c;
+height:120px;
+margin-top: 50px;
+margin-bottom: 50px;}
+
+.footer p{font-family: Cabin;
+    font-size: 26px;
+    line-height: normal;
+  text-align:center;
+color:white;}
+
+.last-logos {display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 10px;}
+
+.social-logos{display: flex;
+	justify-content: center;
+	flex-direction: row;
+margin-bottom: 35px;}
+
+	.fb{border-radius: 25%}
+
+.last-two{background: grey;
+height:50px;}
+
+.lasty{background:#3c3c3c;
+color:white;
+text-align: center;
+height:40px;
+}
